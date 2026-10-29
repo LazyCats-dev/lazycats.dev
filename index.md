@@ -77,13 +77,25 @@ When you open AO3's Post New Work, Edit Work, Add Chapter, or Edit Chapter page,
 
 ![AO3 Accessibility Helper Screenshot](https://raw.githubusercontent.com/LazyCats-dev/ao3-a11y-helper/main/docs/screenshot.png)
 
-### Links & Source
+### Download & Install
 
-<a href="https://github.com/LazyCats-dev/ao3-a11y-helper" target="_blank" rel="noopener" class="button">
-    <img alt="" role="presentation" src="/assets/img/github-logo.png" class="logo"> GitHub Repository
+<a href="https://chromewebstore.google.com/detail/ao3-accessibility-helper/lkhebhjackcoipehhnjnmghklgeodini"
+    target="_blank" rel="noopener" class="button">
+    <img alt="" role="presentation" src="/assets/img/chrome-logo.svg" class="logo">
+    Chrome Web Store
 </a>
-<a href="https://github.com/LazyCats-dev/ao3-a11y-helper/issues" target="_blank" rel="noopener" class="button">
-    <img alt="" role="presentation" src="/assets/img/github-logo.png" class="logo"> Report an Issue
+<a href="https://addons.mozilla.org/en-US/firefox/addon/ao3-accessibility-helper/" target="_blank" rel="noopener"
+    class="button">
+    <img alt="" role="presentation" src="/assets/img/firefox-logo.svg" class="logo">
+    Firefox Add-ons Store
+</a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/ldelgmiaghbigckcaleelcfnefdjaogc" target="_blank" rel="noopener"
+    class="button">
+    <img alt="" role="presentation" src="/assets/img/edge-logo.svg" class="logo">
+    Microsoft Edge Add-ons
+</a>
+<a href="https://github.com/LazyCats-dev/ao3-a11y-helper" target="_blank" rel="noopener" class="button">
+    <img alt="" role="presentation" src="/assets/img/github-logo.png" class="logo"> Source & Releases
 </a>
 
 ### Key Checks & Features
@@ -98,6 +110,10 @@ Because AO3 sanitizes HTML and strips custom `aria-*` attributes, all accessibil
 * **Formatting Best Practices:** Warns about chained `<br><br>` tags used instead of proper `<p>` paragraph tags, inaccessible `<table>` markup missing headers or captions, unlabeled `<details>` disclosure elements, and obsolete presentation tags (`<center>`, `<font>`, `<strike>`).
 * **One-Click Jump:** Provides a **"Highlight in HTML"** button on each warning to instantly focus and highlight the line in your editor.
 * **Zero Permissions & Private:** Operates with no special browser permissions (`permissions: []`). Runs 100% locally in your browser—no drafts, text, or personal data ever leave your device.
+
+### Community & Resources
+
+* [Report an Issue](https://github.com/LazyCats-dev/ao3-a11y-helper/issues)
 
 ---
 
